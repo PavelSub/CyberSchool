@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <Menu/>
     <v-main>
       <router-view />
     </v-main>
@@ -7,11 +8,16 @@
 </template>
 
 <script>
+import Menu from "@/components/Menu.vue"
+
 export default {
   name: "App",
 
   data: () => ({
     //
   }),
+  components: {
+    Menu
+  }
 };
 </script>
