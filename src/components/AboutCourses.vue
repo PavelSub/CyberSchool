@@ -16,9 +16,6 @@
   </div>
 </template>
 
-
-
-
 <script>
 import Infoblock from "./InfoBlock.vue";
 

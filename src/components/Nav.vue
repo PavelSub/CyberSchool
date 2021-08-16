@@ -339,8 +339,6 @@
   </div>
 </template>
 
-
-
 <script>
 import Popup from "./Popup";
 import { mapGetters, mapActions } from "vuex";

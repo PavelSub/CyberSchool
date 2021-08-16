@@ -62,7 +62,7 @@ export default {
       return this.mode === "signIn";
     },
   },
-  mounted() {  
+  mounted() {
     // this.$modal.show("Popup");
   },
   methods: {
@@ -115,5 +115,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

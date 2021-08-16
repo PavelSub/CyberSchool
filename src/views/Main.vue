@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <AboutCourses/>
+    <AboutCourses />
   </div>
 </template>
 
@@ -11,7 +11,8 @@ import AboutCourses from "@/components/AboutCourses.vue";
 export default {
   name: "Main",
   components: {
-    AboutCourses,
+    AboutCourses
+    // AboutCourses: () => import(/* webpackChunkName: "AboutCourses" */ "@/components/AboutCourses.vue"),
   },
 };
 </script>

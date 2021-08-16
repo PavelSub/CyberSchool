@@ -18,8 +18,8 @@
 export default {
   name: "InfoBlock",
 
-  props:{
-    info: Object
+  props: {
+    info: Object,
   },
 };
 </script>
