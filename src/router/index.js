@@ -54,6 +54,18 @@ const routes = [
   //     import(/* webpackChunkName: "lectures" */ "../views/Lectures.vue"),
   // },
   {
+    path: "/events",
+    name: "Events",
+    component: () =>
+      import(/* webpackChunkName: "lectures" */ "../views/Events.vue"),
+  },
+  // {
+  //   path: "/events/:id",
+  //   name: "Events",
+  //   component: () =>
+  //     import(/* webpackChunkName: "lectures" */ "../views/Events.vue"),
+  // },
+  {
     path: "/about",
     name: "About",
     component: () =>
